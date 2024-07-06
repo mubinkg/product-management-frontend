@@ -4,16 +4,23 @@ import { Button } from 'reactstrap'
 
 const TopHero = () => {
   return (
-    <div className='d-flex flex-column align-items-center'>
-      <h2>
+    <div className='d-flex flex-column align-items-center' style={{ marginTop: "80px" }}>
+      <h4 className='text-uppercase' style={{ color: "#1C64F2" }}>
         Introducing issyx
-      </h2>
-      <h1>
-        Effortless IT Asset Management Solutions!
+      </h4>
+      <h1 className='mt-4'>
+        Effortless IT Asset
       </h1>
-      <small>
-        Discover a seamless way to manage your IT assets with our comprehensive solution designed for ease and efficiency.
+      <h1>
+        Management Solutions!
+      </h1>
+      <small className='mt-4'>
+        Discover a seamless way to manage your IT assets with our comprehensive
       </small>
+      <small>
+        solution designed for ease and efficiency.
+      </small>
+      <button className='hero-btn mt-4 mb-4'>Get Started</button>
       <div>
         <Image
           src="/hero.png"

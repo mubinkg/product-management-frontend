@@ -10,13 +10,10 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  Button,
 } from 'reactstrap';
 
-function AppNav(){
+function AppNav() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -24,31 +21,40 @@ function AppNav(){
   return (
     <div>
       <Navbar expand="md">
-        <NavbarBrand onClick={()=>console.log('Clicked')} className='text-white pointer'>
-          <Image src="/logo.png" alt='logo' width={160} height={57}/>
+        <NavbarBrand onClick={() => console.log('Clicked')} className='text-white pointer'>
+          <Image src="/logo.png" alt='logo' width={160} height={57} />
         </NavbarBrand>
         <NavbarToggler className='text-white' onClick={toggle} />
         <Collapse className="justify-content-end" isOpen={isOpen} navbar>
           <Nav navbar>
-            <NavItem>
-              <NavLink  className='text-white'>SignIn</NavLink>
-            </NavItem>
-            <NavItem>
+            <NavItem className='pointer'>
               <NavLink className='text-white'>
-                SignOut
+                Why Choose Us?
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem className='pointer'>
+              <NavLink className='text-white'>
+                Testimonials
+              </NavLink>
+            </NavItem>
+            <NavItem className='pointer'>
+              <NavLink className='text-white'>
+                FAQ
+              </NavLink>
+            </NavItem>
+            <NavItem className='pointer'>
+              <NavLink className='text-white'>
+                Contact Us
+              </NavLink>
+            </NavItem>
+            <NavItem className='pointer'>
+              <NavLink className='text-white'>
+                Login
+              </NavLink>
+            </NavItem>
+            <NavItem className='pointer'>
+              <Button outline style={{marginLeft: "20px"}} className='text-white'>Get Started</Button>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
