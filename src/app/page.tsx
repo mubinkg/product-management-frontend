@@ -7,6 +7,7 @@ import Monitor from '@/components/homepage/Monitor';
 import HomeStore from '@/components/homepage/HomeStore';
 import HomeNotification from '@/components/homepage/HomeNotification';
 import HomeDashboard from '@/components/homepage/HomeDashboard';
+import HomeLocation from '@/components/homepage/HomeLocation';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <HomeStore/>
       <HomeNotification/>
       <HomeDashboard/>
+      <HomeLocation/>
     </main>
   );
 }
