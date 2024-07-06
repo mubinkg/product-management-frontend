@@ -6,6 +6,7 @@ import AssetAd from '@/components/homepage/AssetAd';
 import Monitor from '@/components/homepage/Monitor';
 import HomeStore from '@/components/homepage/HomeStore';
 import HomeNotification from '@/components/homepage/HomeNotification';
+import HomeDashboard from '@/components/homepage/HomeDashboard';
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Monitor/>
       <HomeStore/>
       <HomeNotification/>
+      <HomeDashboard/>
     </main>
   );
 }
