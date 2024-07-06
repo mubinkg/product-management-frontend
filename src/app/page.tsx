@@ -5,6 +5,7 @@ import TopHero from '@/components/TopHero';
 import AssetAd from '@/components/homepage/AssetAd';
 import Monitor from '@/components/homepage/Monitor';
 import HomeStore from '@/components/homepage/HomeStore';
+import HomeNotification from '@/components/homepage/HomeNotification';
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <AssetAd />
       <Monitor/>
       <HomeStore/>
+      <HomeNotification/>
     </main>
   );
 }
