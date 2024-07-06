@@ -21,3 +21,8 @@
 .store{
     background-image: url('/store.png');
 }
+.product{
+    background-image: url('/laptop.png');
+    background-size: cover;
+    background-position: center;
+}
