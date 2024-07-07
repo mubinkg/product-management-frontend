@@ -7,7 +7,7 @@ export default function Page() {
         <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", margin: "200px 20px 20px 20px" }}>
             <div style={{ maxWidth: "500px" }}>
                 <Card style={{ padding: "30px" }}>
-                    <h2 className="mb-3">Login to your account!</h2>
+                    <h2 className="mb-3">Forgot your password?!</h2>
                     <p>Lorem ipsum dolor sit amet consectetur. Risus enim scelerisque fermentum fermentum.</p>
                     <FormGroup className="mt-4">
                         <Label for="exampleEmail">
@@ -20,27 +20,7 @@ export default function Page() {
                             type="email"
                         />
                     </FormGroup>
-                    <FormGroup className="mt-2">
-                        <Label for="exampleEmail">
-                            Password
-                        </Label>
-                        <Input
-                            id="password"
-                            name="password"
-                            placeholder="with a placeholder"
-                            type="password"
-                        />
-                    </FormGroup>
-                    <Button className="mt-2" color="primary">Submit</Button>
-                    <small className="mt-3">
-                        Forgot password?
-                    </small>
-                    <small className="mt-1">
-                        Don’t have an account?
-                        <strong>
-                        Signup
-                        </strong>
-                    </small>
+                    <Button className="mt-2" color="primary">Reset passwod</Button>
                 </Card>
             </div>
         </div >
