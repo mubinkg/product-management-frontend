@@ -10,6 +10,7 @@ import HomeDashboard from '@/components/homepage/HomeDashboard';
 import HomeLocation from '@/components/homepage/HomeLocation';
 import HomeProductAd from '@/components/homepage/HomeProductAd';
 import HomeTestimonial from '@/components/homepage/HomeTestimonial';
+import HomeFaq from '@/components/homepage/HomeFaq';
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <HomeLocation/>
       <HomeProductAd/>
       <HomeTestimonial/>
+      <HomeFaq/>
     </main>
   );
 }
