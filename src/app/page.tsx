@@ -11,6 +11,7 @@ import HomeLocation from '@/components/homepage/HomeLocation';
 import HomeProductAd from '@/components/homepage/HomeProductAd';
 import HomeTestimonial from '@/components/homepage/HomeTestimonial';
 import HomeFaq from '@/components/homepage/HomeFaq';
+import Footer from '@/components/Footer';
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
       <HomeProductAd/>
       <HomeTestimonial/>
       <HomeFaq/>
+      <Footer/>
     </main>
   );
 }
