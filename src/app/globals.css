@@ -26,3 +26,9 @@
     background-size: cover;
     background-position: center;
 }
+
+.choose{
+    background-image: url('/choose.png');
+    background-size: cover;
+    background-position: center;
+}
