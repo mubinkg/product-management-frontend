@@ -4,7 +4,7 @@ import { Button, Card, Form, FormGroup, Input, Label } from "reactstrap";
 
 export default function Page() {
     return (
-        <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", margin: "200px 20px 20px 20px" }}>
+        <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", margin: "150px 20px 20px 20px" }}>
             <div style={{ maxWidth: "500px" }}>
                 <Card style={{ padding: "30px" }}>
                     <h2 className="mb-3">Login to your account!</h2>
