@@ -1,9 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 import { Container } from 'reactstrap'
+import AppNav from './Navbar'
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: "#000419" }}>
+        <div style={{ backgroundColor: "#000419", padding: "120px 0px 0px 0px" }}>
             <Container>
                 <div className='mt-4'>
                     <div className='d-flex flex-column justify-content-center align-items-center' style={{ backgroundColor: "#1C64F2", height: "400px", borderRadius: "40px" }}>
@@ -14,6 +16,18 @@ const Footer = () => {
                         <button className='footer-btn mt-4'>Get Started</button>
                     </div>
                 </div>
+                <div className='my-4'>
+                    <AppNav/>
+                </div>
+                <div style={{borderBottom: "2px solid white"}}></div>
+                <div className='d-flex justify-content-between my-4'>
+                    <small className='text-white'>© 2024. All rights reserved.</small>
+                    <ul className='text-white' style={{listStyleType: "none", display: "flex", gap: "20px"}}>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Cookies Settings</li>
+                    </ul>
+                </div>            
             </Container>
         </div>
     )
